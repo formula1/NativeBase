@@ -24,7 +24,9 @@
 	"jest": {
 		"preset": "react-native",
 		"rootDir": "src",
-		"transformIgnorePatterns": ["node_modules/(?!react-native|@shoutem|react-clone-referenced-element)"]
+		"transformIgnorePatterns": [
+			"node_modules/(?!react-native|@shoutem|react-clone-referenced-element)"
+		]
 	},
 	"version": "2.3.0",
 	"license": "Apache-2.0",
@@ -35,7 +37,7 @@
 		"color": "~1.0.3",
 		"fs-extra": "^2.0.0",
 		"lodash": "~4.11.1",
-		"native-base-shoutem-theme": "0.2.0",
+		"native-base-shoutem-theme": "github:formula1/native-base-shoutem-theme",
 		"print-message": "^2.1.0",
 		"prop-types": "^15.5.10",
 		"react-native-drawer": "^2.3.0",
@@ -79,6 +81,8 @@
 		"url": "git+https://github.com/GeekyAnts/NativeBase.git"
 	},
 	"rnpm": {
-		"assets": ["Fonts"]
+		"assets": [
+			"Fonts"
+		]
 	}
 }
